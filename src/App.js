@@ -11,7 +11,7 @@ import BudgetingHub from './components/pages/BudgetingHub';
 function App() {
   return (
     <>
-      <HashRouter>
+      <Router>
         <Navbar />
         <Switch>
           <Route path='/' exact component={Home} />
@@ -20,7 +20,7 @@ function App() {
           <Route path='/glossary' component={Glossary} />
           <Route path='/budgeting-hub' component={BudgetingHub} />
         </Switch>
-      </HashRouter>
+      </Router>
     </>
   );
 }

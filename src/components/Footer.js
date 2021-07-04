@@ -1,5 +1,4 @@
 import React from 'react';
-import { Button } from './Button';
 import './Footer.css';
 
 function Footer() {
@@ -7,22 +6,19 @@ function Footer() {
         <div className='footer-container'>
             <section className='footer-subscription'>
                 <p className='footer-subscription-heading'>
-                    Join the the email list!
+                    Have any questions or concerns?
                 </p>
                 <p className='footer-subscription-text'>
-                    You can always unsubscribe.
+                    You can always reach out to us.
+                    <br></br>
+                    <br></br>
+                    <a href="mailto:[isb.finances@gmail.com]">Email us</a> at anytime! 
                 </p>
-                <div className='input-areas'>
-                    <form>
-                        <input type="email" name="email" placeholder="Your email"
-                        className='footer-input'/>
-                        <Button buttonStyle='btn--outline'>Subscribe</Button>
-                    </form>
-                </div> 
             </section>
-                <p className='website-rights'> © ISB 2021 </p>
+            <p className='website-rights'> © ISB 2021 </p>
         </div>
     )
 }
 
 export default Footer
+

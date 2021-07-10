@@ -3,6 +3,7 @@ import '../../App.css';
 import Footer from '../Footer';
 import './Glossary.css';
 import Table from 'react-bootstrap/Table';
+import {DemoButton}  from '../DemoButton';
 
 export default function Glossary() {
     const words = [ 
@@ -37,6 +38,26 @@ export default function Glossary() {
             </tr>
         );
     }
+
+    function shuffleArray(array) {
+        for (var i = array.length - 1; i > 0; i--) {
+            var j = Math.floor(Math.random() * (i + 1));
+            var temp = array[i];
+            array[i] = array[j];
+            array[j] = temp;
+        }
+    }
+
+    var shufflewords = words
+    shuffleArray(shufflewords);
+    console.log(shufflewords);
+    let first = shufflewords[0];
+    console.log(first);
+
+    const refreshPage = ()=>{
+        window.location.reload();
+    }
+
     return( 
         <>
             <h1 className='glossary'>Glossary</h1>
@@ -50,6 +71,20 @@ export default function Glossary() {
                 </thead>
                 <tbody>
                     {words.map(renderWords)}
+                </tbody>
+                </Table>
+            <h3 className='description'>Want to learn a new word? Try our World Shuffle below!</h3>
+            <center><DemoButton
+                className='btns'
+                buttonStyle='btn--primary'
+                buttonSize='btn--large'
+                onClick={refreshPage}
+                >
+            Click to Shuffle! 
+            </DemoButton></center>
+            <Table striped bordered hover>
+            <tbody>
+                    {shufflewords.map(renderWords)}
                 </tbody>
             </Table>
             <Footer />

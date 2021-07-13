@@ -11,7 +11,7 @@ function Cards() {
                     <ul className='cards__items'>
                         <CardItem 
                         src='images/guides.jpg'
-                        text='Learning Guides'
+                        text='Learning Resources'
                         //label='Adventure'
                         path='/learning-guides'/>
                         <CardItem 

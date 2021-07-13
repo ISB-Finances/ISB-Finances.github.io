@@ -3,7 +3,7 @@ import '../../App.css';
 import Footer from '../Footer';
 import './Glossary.css';
 import Table from 'react-bootstrap/Table';
-import {DemoButton}  from '../DemoButton';
+import {ShuffleButton}  from '../ShuffleButton';
 
 export default function Glossary() {
     const words = [ 
@@ -39,6 +39,15 @@ export default function Glossary() {
         );
     }
 
+    const renderWord = (wrd) => {
+        return(
+            <div>
+                <p className='title'>{wrd.word}</p>
+                <p className='def'>{wrd.meaning}</p>
+            </div>
+        );
+    }
+
     function shuffleArray(array) {
         for (var i = array.length - 1; i > 0; i--) {
             var j = Math.floor(Math.random() * (i + 1));
@@ -48,15 +57,8 @@ export default function Glossary() {
         }
     }
 
-    var shufflewords = words
+    var shufflewords = [...words];
     shuffleArray(shufflewords);
-    console.log(shufflewords);
-    let first = shufflewords[0];
-    console.log(first);
-
-    const refreshPage = ()=>{
-        window.location.reload();
-    }
 
     return( 
         <>
@@ -73,20 +75,17 @@ export default function Glossary() {
                     {words.map(renderWords)}
                 </tbody>
                 </Table>
-            <h3 className='description'>Want to learn a new word? Try our World Shuffle below!</h3>
-            <center><DemoButton
+            <h3 className='description'>Want to learn a new word? Try our Word Shuffle below!</h3>
+            <center><ShuffleButton
                 className='btns'
                 buttonStyle='btn--primary'
-                buttonSize='btn--large'
-                onClick={refreshPage}
+                buttonSize='btn--large' 
                 >
             Click to Shuffle! 
-            </DemoButton></center>
-            <Table striped bordered hover>
-            <tbody>
-                    {shufflewords.map(renderWords)}
-                </tbody>
-            </Table>
+            </ShuffleButton></center>
+            <div>
+                    {shufflewords.slice(0,1).map(renderWord)}
+            </div>
             <Footer />
         </>       
     );

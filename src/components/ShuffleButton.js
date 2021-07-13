@@ -6,7 +6,7 @@ const STYLES = ['btn--primary', 'btn--outline', 'btn--test'];
 
 const SIZES = ['btn--medium', 'btn--large'];
 
-export const DemoButton = ({
+export const ShuffleButton = ({
   children,
   type,
   onClick,
@@ -20,7 +20,7 @@ export const DemoButton = ({
   const checkButtonSize = SIZES.includes(buttonSize) ? buttonSize : SIZES[0];
 
   return (
-    <Link to='/' className='btn-mobile'>
+    <Link to='/glossary' className='btn-mobile'>
       <button
         className={`btn ${checkButtonStyle} ${checkButtonSize}`}
         onClick={onClick}

@@ -1,0 +1,40 @@
+.learning-guides {
+    height: 150px;
+    font-size: 80px;
+    color: rgb(4, 0, 56);
+}
+
+h3 {
+    color: rgb(4, 0, 56);
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: center;
+}
+
+.description {
+    margin-bottom: 10px;
+}
+
+.title {
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 15px;
+
+}
+
+.info {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+      'Lucida Sans', Arial, sans-serif;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.other-info {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+      'Lucida Sans', Arial, sans-serif;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}

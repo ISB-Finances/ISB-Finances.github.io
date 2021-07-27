@@ -8,19 +8,7 @@
 
 
     export default function DashComponent() {
-      const [error, setError] = useState("")
-      const {currentUser, logout} = useAuth()
-      const history = useHistory()
-      async function handleLogout() {
-        setError('')
-        try {
-            await logout()
-            history.pushState('/budgeting-hub/login')
-        } catch {
-            setError('Failed to log out')
-        }
-
-    }
+     
         const expenses = [
             { name: "Rent", value: 400 },
             { name: "Grocery", value: 300 },
@@ -75,11 +63,7 @@
                 <br></br>
                 <Link to="/budgeting-hub/account" className="btn btn--primary w-100 mt-3" >
 Account Details                </Link>
-                
-<div className="w-100 text-center mt-2">
-        <Button variant="link" onClick={handleLogout}>Log out</Button>
-      </div>
-                <br></br>
+                                <br></br>
                 <br></br>
                 <br></br>
                 <br></br>

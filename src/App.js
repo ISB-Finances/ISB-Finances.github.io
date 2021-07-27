@@ -7,7 +7,7 @@ import LearningGuides from './components/pages/LearningGuides';
 import Comparisons from './components/pages/Comparisons';
 import Glossary from './components/pages/Glossary';
 import BudgetingHub from './components/pages/BudgetingHub';
-
+import 'bootstrap/dist/css/bootstrap.css';
 function App() {
   return (
     <>

@@ -70,16 +70,16 @@ function Navbar() {
             </li>
 
             <li>
-              <Link
-                to='/budgeting-hub'
-                className='nav-links-mobile'
-                onClick={closeMobileMenu}
-              >
-                Budgeting Hub
-              </Link>
+                {/* <Link
+                  to='/budgeting-hub'
+                  className='nav-links-mobile'
+                  onClick={closeMobileMenu}
+                >
+                  Budgeting Hub
+                </Link> */}
             </li>
           </ul>
-          {button && <Button buttonStyle='btn--outline'>Budgeting Hub</Button>}
+          {<Button buttonStyle='btn--outline'>Budgeting Hub</Button>}
         </div>
       </nav>
     </>

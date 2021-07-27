@@ -1,0 +1,78 @@
+.PieContainer {
+    /* display: inline-block;
+    width: 70%;
+    margin-left: -50%;
+    margin-right: 50%;
+    padding: 2%; */
+    border: solid cadetblue;
+    border-radius: 15%;
+    margin-left: 1%;
+    width: 30%;
+    display: inline-block;
+}
+
+.Test {
+
+    display: inline-block;
+    width: 330%;
+    margin-left: -115%;
+}
+.Wrap {
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    border-color: blue;
+    border-style: solid;
+}
+.Test1 {
+    width: 55%;
+    margin-left: 1%;
+text-align: center;
+align-items: center;
+float: left;
+}
+
+.Test2 {
+    width: 15%;
+    /* margin-left: -%; */
+    margin-top: -6%;
+text-align: center;
+align-items: center;
+display: inline-block;
+}
+.Test3 {
+    width: 15%;
+    margin-left: 5%;
+    margin-top: -6%;
+    margin-top: -6%;
+text-align: center;
+align-items: center;
+display: inline-block;
+}
+.ChartContainer {
+    width: 5%;
+    text-align: center;
+    margin-bottom: -55%;
+    display: block;
+}
+
+PieChart {
+    width: 15%;
+}
+
+.GraphWrapper {
+    text-align: left;
+    width: 25%;
+    margin-left: -95%;
+    
+    display: inline-block;
+}
+
+.LineWrapper {
+    text-align: center;
+    width: 50%;
+    display: inline-block;
+    
+    
+
+}

@@ -27,12 +27,12 @@ video {
   .hero-container > h3 {
     margin-top: 15px;
     color: rgb(4, 0, 56);
-    font-style: italic;
   }
 
   .hero-container > h4 {
     margin: 20px;
     text-align: center;
+    font-size: 20px;
   }
   .hero-container > p {
     margin-top: 8px;

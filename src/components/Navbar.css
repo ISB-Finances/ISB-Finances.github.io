@@ -41,7 +41,7 @@
   grid-gap: 10px;
   list-style: none;
   text-align: center;
-  width: 80vw;
+  width: 90vw;
   justify-content: end;
   margin-right: 2rem;
 }
@@ -108,6 +108,17 @@
     background-color: #fff;
     color: #242424;
     border-radius: 0;
+  }
+
+  .navbar-logo {
+    justify-self: start;
+    margin-left: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    padding-bottom: 15px;
   }
 
   .menu-icon {

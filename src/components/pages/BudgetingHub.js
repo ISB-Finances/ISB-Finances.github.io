@@ -13,6 +13,7 @@ import ForgotPassword from '../UserAuth/ForgotPassword';
 import UpdateProfile from '../UserAuth/UpdateProfile';
 import { AuthProvider } from '../UserAuth/AuthContext';
 import Account from '../budgeting-hub/Account'
+import GoToTop from '../GoToTop';
 // import '..../node_modules/bootstrap/dist/css/bootstrap'
 // import '.../node_modules/bootstrap/dist/css/bootstrap.min.css';
 
@@ -51,7 +52,8 @@ export default function BudgetingHub() {
      
 
                </div>
-       </Container>           
+       </Container>  
+       <GoToTop />         
          </>
     );
 }

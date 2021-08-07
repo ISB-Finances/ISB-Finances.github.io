@@ -3,7 +3,8 @@ import '../../App.css';
 import Footer from '../Footer';
 import Slider from '../Slider';
 import { SliderData } from '../SliderData';
-import './LearningGuides.css'
+import './LearningGuides.css';
+import GoToTop from '../GoToTop';
 
 export default function LearningGuides() {
     return ( 
@@ -31,6 +32,7 @@ export default function LearningGuides() {
             </p>
             <p className='other-info'>You can also learn more about savings and investing in Canada by checking the <a href="https://www.canada.ca/en/services/finance/savings.html">Government of Canada's website</a>.</p>
             <Footer />
+            <GoToTop />
         </>
     );
 }

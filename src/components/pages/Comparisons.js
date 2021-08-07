@@ -3,6 +3,7 @@ import '../../App.css';
 import Footer from '../Footer';
 import './Comparisons.css';
 import Table from 'react-bootstrap/Table';
+import GoToTop from '../GoToTop';
 
 export default function Comparisons() {
     const creditCards = [
@@ -50,6 +51,7 @@ export default function Comparisons() {
                 </tbody>
             </Table>
             <Footer />
+            <GoToTop />
         </>
     );
 }

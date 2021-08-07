@@ -3,6 +3,7 @@ import '../../App.css';
 import HeroSection from '../HeroSection';
 import Cards from '../Cards';
 import Footer from '../Footer';
+import GoToTop from '../GoToTop';
 
 function Home () {
     return (
@@ -10,6 +11,7 @@ function Home () {
           <HeroSection />  
           <Cards />
           <Footer />
+          <GoToTop />
         </>
     );
 }

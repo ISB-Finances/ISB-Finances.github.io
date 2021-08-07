@@ -4,6 +4,7 @@ import Footer from '../Footer';
 import './Glossary.css';
 import Table from 'react-bootstrap/Table';
 import {ShuffleButton}  from '../ShuffleButton';
+import GoToTop from '../GoToTop';
 
 export default function Glossary() {
     const words = [ 
@@ -87,6 +88,7 @@ export default function Glossary() {
                     {shufflewords.slice(0,1).map(renderWord)}
             </div>
             <Footer />
+            <GoToTop />
         </>       
     );
 }

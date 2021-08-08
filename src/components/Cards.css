@@ -23,6 +23,8 @@
   
   .cards__items {
     margin-bottom: 24px;
+    list-style: none;
+    padding-left: 0;
   }
   
   .cards__item {

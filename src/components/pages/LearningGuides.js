@@ -11,8 +11,8 @@ export default function LearningGuides() {
         <>
             <h1 className='learning-guides'>Resources</h1>
             <h3 className='description'> As someone new to the financial world, getting started can be difficult. 
-                To help you take that first step towards expanding your financial literacy, we’ve prepared a list of Canadian YouTubers and useful articles that cover a variety of financial topics. 
-                Whether you are a beginner or an expert, these channels and articles will be sure to teach you a thing or two related to investing, saving, and budgeting.
+                To help you take that first step towards expanding your financial literacy, we’ve prepared a list of Canadian YouTubers, useful articles, and helpful websites that cover a variety of financial topics. 
+                Whether you are a beginner or an expert, these channels, articles, and websites will be sure to teach you a thing or two related to investing, saving, and budgeting.
             </h3>
             <Slider slides={SliderData}/>
             <h3>YouTubers</h3>
@@ -38,6 +38,17 @@ export default function LearningGuides() {
             <p className='info'>Government of Canada's compilation of resources, initiatives, news, and publicatoins related to financial literacy.</p>
             <h5 className='my-title'><a href="https://www.canada.ca/en/financial-consumer-agency/programs/financial-literacy.html">Financial Literacy Programs</a></h5>
             <p className='info'>Government of Canada's compilation of educational materials, such as toolkits and e-learning videos, to help students and adults increase their financial knowledge and skills</p>
+            <h3>Websites</h3>
+            <h5 className='my-title'><a href="https://www.bmo.com/main/personal/investments/learning-centre/">BMO Learning Centre</a></h5>
+            <p className='info'>Access BMO's online repository of information for new investors.</p>
+            <h5 className='my-title'><a href="https://www.investorsedge.cibc.com/en/learn.html">CIBC Learning Centre</a></h5>
+            <p className='info'>Access CIBC's online repository of information for new investors.</p>
+            <h5 className='my-title'><a href="https://discover.rbcroyalbank.com/">RBC Learning Centre</a></h5>
+            <p className='info'>Access CIBC's online repository of educational materials covering a varierty of financial topics.</p>
+            <h5 className='my-title'><a href="https://www.scotiabank.com/ca/en/personal/investing/investing-basics/learning-centre.html">Scotia Bank Learning Centre</a></h5>
+            <p className='info'>Access Scotia Bank's online repository of educational materials covering a varierty of financial topics.</p>
+            <h5 className='my-title'><a href="https://www.td.com/us/en/personal-banking/learning/">TD Learning Centre</a></h5>
+            <p className='info'>Access TD's online repository of educational materials covering a varierty of financial topics.</p>
             <Footer />
             <GoToTop />
         </>

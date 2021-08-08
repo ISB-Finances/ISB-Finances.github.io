@@ -9,7 +9,7 @@ import GoToTop from '../GoToTop';
 export default function LearningGuides() {
     return ( 
         <>
-            <h1 className='learning-guides'>Learning Resources</h1>
+            <h1 className='learning-guides'>Resources</h1>
             <h3 className='description'> As someone new to the financial world, getting started can be difficult. 
                 To help you take that first step towards expanding your financial literacy, we’ve prepared a list of Canadian YouTubers and useful articles that cover a variety of financial topics. 
                 Whether you are a beginner or an expert, these channels and articles will be sure to teach you a thing or two related to investing, saving, and budgeting.

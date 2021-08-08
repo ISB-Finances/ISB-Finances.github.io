@@ -90,6 +90,8 @@
   }
 
   .nav-menu.active {
+    list-style: none;
+    padding-left: 0;
     background: #242222;
     left: 0;
     opacity: 1;

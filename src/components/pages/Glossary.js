@@ -82,8 +82,8 @@ export default function Glossary() {
                 buttonStyle='btn--primary'
                 buttonSize='btn--large' 
                 >
-            Click to Shuffle! 
-            </ShuffleButton></center>
+            Click here to Shuffle! 
+            </ShuffleButton></center> <br></br>
             <div>
                     {shufflewords.slice(0,1).map(renderWord)}
             </div>

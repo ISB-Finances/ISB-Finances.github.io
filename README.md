@@ -1,4 +1,4 @@
-# ISB Finances Website
+# ISB Finances
 ## Motivation
 Although financial literacy is one of the most important and empowering learning topics, it rarely receives the recognition it deserves. For most young adults who are new to the field, it can be difficult to get started on this learning journey. To bridge this gap and help anyone started begin learning, we've created ISB Finances! 
 Visit our website by clicking [here](https://isb-finances.github.io/#/) and get your learning journey started!

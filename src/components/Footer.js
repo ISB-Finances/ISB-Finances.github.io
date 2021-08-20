@@ -13,6 +13,9 @@ function Footer() {
                     <br></br>
                     <br></br>
                     <a href="mailto:[isb.finances@gmail.com]">Email us</a> at anytime! 
+                    <br></br>
+                    <br></br>
+                    Interested in our source code? Visit our <a href="https://github.com/ISB-Finances/ISB-Finances.github.io">GitHub repository</a>.
                 </p>
             </section>
             <p className='website-rights'> © ISB 2021 </p>

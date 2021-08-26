@@ -4,6 +4,7 @@ import HeroSection from '../HeroSection';
 import Cards from '../Cards';
 import Footer from '../Footer';
 import GoToTop from '../GoToTop';
+import AboutUs from './ABOUT US.png'; 
 
 function Home () {
     return (

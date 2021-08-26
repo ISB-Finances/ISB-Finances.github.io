@@ -11,7 +11,17 @@ function Home () {
         <>
           <HeroSection />  
           <Cards />
-          <img src='images/ABOUT US.png'></img> 
+        
+         < class App extends Component {
+         render() {
+         return (
+          <div>
+         //Call image in source like this
+          <img src={ABOUTUS}/>
+     </div>
+    );
+  }
+} />
           <Footer />
           <GoToTop />
         </>
@@ -19,17 +29,6 @@ function Home () {
 }
 
 // image import
-import ABOUT US from './ABOUT US.png';
 
- class App extends Component {
-  render() {
-    return (
-     <div>
-         //Call image in source like this
-          <img src={ABOUTUS}/>
-     </div>
-    );
-  }
-}
 
 export default Home;

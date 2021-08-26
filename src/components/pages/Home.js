@@ -10,6 +10,7 @@ function Home () {
         <>
           <HeroSection />  
           <Cards />
+          <img src='images/ABOUT US.png'></img> 
           <Footer />
           <GoToTop />
         </>
